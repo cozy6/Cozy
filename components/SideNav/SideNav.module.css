@@ -1,0 +1,40 @@
+.link_container > ul{
+    list-style: none;
+}
+
+.nav_link > a{
+    text-decoration: none;
+    color: var(--pink);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+.link_container {
+    text-align: right;
+    margin-top: -10rem;
+    padding-right: 2rem;
+    position: relative;
+    animation: myfirst 2s;
+    animation-direction: alternate;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    color: var(--pink);
+    margin-top: 2rem;
+    position: relative;
+    animation: myfirst 2s;
+    animation-direction: alternate;
+}
+  
+  @keyframes myfirst {
+    0%   {opacity:0%; top: 20px;}
+   100% {opacity:100%; top: 0px;}
+  }
+
+  .side_nav {
+    position: fixed;
+    margin-left: 80rem;
+  }

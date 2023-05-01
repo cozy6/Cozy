@@ -1,0 +1,90 @@
+.profile_img {
+    border-radius: 20%;
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.profile_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.profile_description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    width: 30rem;
+    color: var(--white);
+    margin-top: 30rem;
+}
+
+.profile_description>h1::after {
+    content: "";
+    width: 5px;
+    height: 22px;
+    background: #ec7fff;
+    display: inline-block;
+    animation: cursor-blink 1s infinite;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+  }
+
+.profile_description>h1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  @keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+  }
+
+  .home_button {
+    display: flex;
+    flex-direction:row;
+    background: none;
+    border: #ec7fff solid;
+    color: #ec7fff;
+    padding: 10px 15px; 
+    font-size: 16px;
+    border-radius: 4%;
+    margin-left: 15rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    gap: .5rem;
+    align-items: center;
+    animation: myfirst 2s;
+    position: relative;
+  }
+
+  .typed_out {
+    overflow: hidden;
+    width: 0;
+    white-space: nowrap;
+    animation: typing 1s steps(20,end)forwards;
+  }
+
+  .profile_description {
+    display: inline-block;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .profile_text {
+    position: relative;
+    animation: myfirst 2s;
+    animation-direction: alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {opacity:0%; top: 20px;}
+   100% {opacity:100%; top: 0px;}
+  }
