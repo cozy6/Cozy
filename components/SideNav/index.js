@@ -13,9 +13,9 @@ export default function SideNav(){
                     <li className={styles.nav_link}><Link href="#experience">/experience</Link></li>
                 </ul>
                 <ul className={styles.social_icons}>
-                    <li><i class="ri-mail-line"></i></li>
-                    <li><i class="ri-github-fill"></i></li>
-                    <li><i class="ri-linkedin-box-fill"></i></li>
+                    <li><i class="ri-mail-line ri-3x"></i></li>
+                    <li><i class="ri-github-fill ri-3x"></i></li>
+                    <li><i class="ri-linkedin-box-fill ri-3x"></i></li>
                 </ul>
             </div>
         </div>

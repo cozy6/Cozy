@@ -7,15 +7,20 @@
     color: var(--pink);
     font-family: var(--font-family);
     font-weight: bold;
+    font-size: 32px;
 }
 
 .link_container {
     text-align: right;
-    margin-top: -10rem;
-    padding-right: 2rem;
+    margin-top: -14rem;
+    /* padding-right: 15rem; */
     position: relative;
     animation: myfirst 2s;
     animation-direction: alternate;
+}
+
+.nav_link>a:hover {
+    color: var(--teal);
 }
 
 .social_icons {
@@ -36,5 +41,5 @@
 
   .side_nav {
     position: fixed;
-    margin-left: 80rem;
+    margin-left: 75rem;
   }

@@ -2,11 +2,12 @@
   --font-family: "VisbyRoundCF-Regular", sans-serif;
   --header-size: 32px;
   --sub-header-size: 22px;
-  --body-size: 14px;
+  --body-size: 18px;
 
   --white:#ffff;
   --black:#0000;
   --pink: #ec7fff;
+  --teal: #00fff2;
 }
 
 h1 {
