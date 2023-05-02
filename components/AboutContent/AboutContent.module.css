@@ -1,0 +1,21 @@
+.content_container {
+    display: flex;
+    flex-direction: row;
+    width: 60rem;
+    margin-left: 15rem;
+    margin-top: 15rem;
+    gap: 4rem;
+    color: var(--white);
+}
+
+.right_container {
+    margin-top: 5rem;
+}
+
+.profile_img {
+    border-radius: 10rem
+}
+
+.text_colour {
+    color: var(--pink);
+}

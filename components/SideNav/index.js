@@ -8,7 +8,7 @@ export default function SideNav(){
             <div className={styles.link_container}>
                 <ul>
                     <li className={styles.nav_link}><Link href="#home">/home</Link></li>
-                    <li className={styles.nav_link}><Link href="#about">/about</Link></li>
+                    <li className={styles.nav_link}><Link href="AboutContent">/about</Link></li>
                     <li className={styles.nav_link}><Link href="#works">/works</Link></li>
                     <li className={styles.nav_link}><Link href="#experience">/experience</Link></li>
                 </ul>

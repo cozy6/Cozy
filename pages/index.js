@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 //Components
 import HomeContent from '@/components/HomeContent'
 import SideNav from '@/components/SideNav'
+import AboutContent from '@/components/AboutContent'
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <HomeContent/>
       <SideNav/>
+      <AboutContent/>
     </>
   )
 }

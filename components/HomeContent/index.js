@@ -17,7 +17,7 @@ export default function HomeContent (){
             /> */}
         <div className={styles.profile_description}>  
             <h1 className={styles.typed_out}>Welcome, to my website!</h1>
-            <p className={styles.profile_text}>I'm a Front End Developer from Ontario, Canada. Utlizing prototyping software such as Figma and XD I am able to make modern webpages and applications using Next.js as well as HTML & CSS.</p>  
+            <p className={styles.profile_text}>I'm a Front End Developer from Ontario, Canada. Utlizing software such as Figma and XD I am able to prototype modern webpages/applications and build them using Next.js as well as HTML & CSS.</p>  
         </div>
         </div>
         <button className={styles.home_button}><i class="ri-mail-line"></i>Get in touch!</button>
