@@ -15,7 +15,7 @@
 .profile_description {
     display: flex;
     flex-direction: column;
-    margin-left: 15rem;
+    margin-left: 10rem;
     width: 30rem;
     color: var(--white);
     margin-top: 30rem;
@@ -53,7 +53,7 @@
     padding: 10px 15px; 
     font-size: 16px;
     border-radius: 4%;
-    margin-left: 15rem;
+    margin-left: 10rem;
     margin-top: 1.2rem;
     cursor: pointer;
     gap: .5rem;
